@@ -1,0 +1,38 @@
+{
+    "keyboard_name": "xgk61",
+    "url": "",
+    "maintainer": "Uy Bui",
+    "width": 15,
+    "height": 5,
+    "layouts": {
+        "LAYOUT_60_ansi": {
+            "layout": [
+                {"label":"K00","x":0,"y":0},{"label":"K10","x":1,"y":0},{"label":"K01","x":2,"y":0},{"label":"K11","x":3,"y":0},{"label":"K02","x":4,"y":0},{"label":"K12","x":5,"y":0},{"label":"K03","x":6,"y":0},{"label":"K13","x":7,"y":0},{"label":"K04","x":8,"y":0},{"label":"K14","x":9,"y":0},{"label":"K05","x":10,"y":0},{"label":"K15","x":11,"y":0},{"label":"K06","x":12,"y":0},{"label":"K16","x":13,"y":0,"w":2},
+                {"label":"K20","x":0,"y":1,"w":1.5},{"label":"K30","x":1.5,"y":1},{"label":"K21","x":2.5,"y":1},{"label":"K31","x":3.5,"y":1},{"label":"K22","x":4.5,"y":1},{"label":"K32","x":5.5,"y":1},{"label":"K23","x":6.5,"y":1},{"label":"K33","x":7.5,"y":1},{"label":"K24","x":8.5,"y":1},{"label":"K34","x":9.5,"y":1},{"label":"K25","x":10.5,"y":1},{"label":"K35","x":11.5,"y":1},{"label":"K26","x":12.5,"y":1},{"label":"K36","x":13.5,"y":1,"w":1.5},
+                {"label":"K40","x":0,"y":2,"w":1.75},{"label":"K50","x":1.75,"y":2},{"label":"K41","x":2.75,"y":2},{"label":"K51","x":3.75,"y":2},{"label":"K42","x":4.75,"y":2},{"label":"K52","x":5.75,"y":2},{"label":"K43","x":6.75,"y":2},{"label":"K53","x":7.75,"y":2},{"label":"K44","x":8.75,"y":2},{"label":"K54","x":9.75,"y":2},{"label":"K45","x":10.75,"y":2},{"label":"K55","x":11.75,"y":2},{"label":"K46","x":12.75,"y":2,"w":2.25},
+                {"label":"K60","x":0,"y":3,"w":2.25},{"label":"K70","x":2.25,"y":3},{"label":"K61","x":3.25,"y":3},{"label":"K71","x":4.25,"y":3},{"label":"K62","x":5.25,"y":3},{"label":"K72","x":6.25,"y":3},{"label":"K63","x":7.25,"y":3},{"label":"K73","x":8.25,"y":3},{"label":"K64","x":9.25,"y":3},{"label":"K74","x":10.25,"y":3},{"label":"K65","x":11.25,"y":3},{"label":"K75","x":12.25,"y":3,"w":2.75},
+                {"label":"K80","x":0,"y":4,"w":1.25},{"label":"K81","x":1.25,"y":4,"w":1.25},{"label":"K82","x":2.5,"y":4,"w":1.25},{"label":"K83","x":3.75,"y":4,"w":6.25},{"label":"K84","x":10,"y":4,"w":1.25},{"label":"K85","x":11.25,"y":4,"w":1.25},{"label":"K86","x":12.5,"y":4,"w":1.25},{"label":"K76","x":13.75,"y":4,"w":1.25}
+            ],
+            "keymaps": {
+                "default": {
+                    "layers": {
+                        "_BASE": [
+                            "KC_GRV", "KC_1", "KC_2", "KC_3", "KC_4", "KC_5", "KC_6", "KC_7", "KC_8", "KC_9", "KC_0", "KC_MINS", "KC_EQL", "KC_BSPC",
+                            "KC_TAB", "KC_Q", "KC_W", "KC_E", "KC_R", "KC_T", "KC_Y", "KC_U", "KC_I", "KC_O", "KC_P", "KC_LBRC", "KC_RBRC", "KC_BSLS",
+                            "KC_CAPS", "KC_A", "KC_S", "KC_D", "KC_F", "KC_G", "KC_H", "KC_J", "KC_K", "KC_L", "KC_SCLN", "KC_QUOT", "KC_ENT",
+                            "KC_LSFT", "KC_Z", "KC_X", "KC_C", "KC_V", "KC_B", "KC_N", "KC_M", "KC_COMM", "KC_DOT", "KC_SLSH", "KC_RSFT",
+                            "KC_LCTL", "KC_LALT", "KC_LGUI", "KC_SPC", "KC_RGUI", "KC_RALT", "KC_RCTL", "MO(_FN)" 
+                        ],
+                        "_FN": [
+                            "KC_ESC", "KC_F1", "KC_F2", "KC_F3", "KC_F4", "KC_F5", "KC_F6", "KC_F7", "KC_F8", "KC_F9", "KC_F10", "KC_F11", "KC_F12", "KC_DEL",
+                            "RESET", "KC_NO", "KC_UP", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_HOME", "KC_PGUP", "KC_NO",
+                            "KC_NO", "KC_LEFT", "KC_DOWN", "KC_RGHT", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_END", "KC_PGDN", "KC_NO",
+                            "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO",
+                            "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_TRNS"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}
